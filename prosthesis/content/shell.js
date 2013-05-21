@@ -24,7 +24,7 @@ document.getElementById("homeButton").addEventListener("mouseup", function() {
 }, false);
 
 document.getElementById("rotateButton").addEventListener("click", function() {
-  Cu.import("resource://prosthesis/modules/GlobalSimulatorScreen.jsm");
+  Cu.import("resource://desktop-helper.js/modules/GlobalSimulatorScreen.jsm");
   GlobalSimulatorScreen.flipScreen();
 }, false);
 

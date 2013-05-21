@@ -4,7 +4,7 @@
 
 debug("loading window_manager tweaks.");
 
-Cu.import("resource://prosthesis/modules/GlobalSimulatorScreen.jsm");
+Cu.import("resource://desktop-helper.js/modules/GlobalSimulatorScreen.jsm");
 Cu.import("resource://prosthesis/modules/B2GAgentSheet.jsm");
 
 navigator.mozSettings
